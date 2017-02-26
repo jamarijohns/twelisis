@@ -1,0 +1,10 @@
+setup.py
+twelisis/__init__.py
+twelisis/tweet_extract.py
+twelisis/tweet_sentiments.py
+twelisis.egg-info/PKG-INFO
+twelisis.egg-info/SOURCES.txt
+twelisis.egg-info/dependency_links.txt
+twelisis.egg-info/not-zip-safe
+twelisis.egg-info/requires.txt
+twelisis.egg-info/top_level.txt
