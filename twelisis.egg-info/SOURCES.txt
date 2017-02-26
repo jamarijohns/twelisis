@@ -1,3 +1,5 @@
+MANIFEST.in
+README.rst
 setup.py
 twelisis/__init__.py
 twelisis/tweet_extract.py

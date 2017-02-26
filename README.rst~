@@ -1,7 +1,13 @@
 twelisis
 --------
 
-This package aims at making the extaction tweets from twitter abstract.
+INSTALLATION-
+
+Easiest way-
+pip install twelisis
+
+This package aims at the abstraction of extaction of tweets from twitter so as to focus more on the analysis part.
+Analysis part(work under progress) 
 
 You can directly use this,simply do:
 (Its better to save passwords in a different file.)

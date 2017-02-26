@@ -1,10 +1,25 @@
-Metadata-Version: 1.0
+Metadata-Version: 1.1
 Name: twelisis
 Version: 0.1
 Summary: Extracting Tweets from twitter and analysing them
-Home-page: http://github.com/yagamiash/Twelisis
+Home-page: https://github.com/yagamiash/twelisis.git
 Author: Ashik Poovanna
 Author-email: ashobot@gmail.com
 License: UNKNOWN
-Description: UNKNOWN
+Description: twelisis
+        --------
+        
+        This package aims at making the extaction tweets from twitter abstract.
+        
+        You can directly use this,simply do:
+        (Its better to save passwords in a different file.)
+        
+        >>>import twelisis as t
+        >>>t.extract_tweets_for_tag(tag_name,password_file_name)
+        >>>t.extract_sentiment(output_file_name)
+        
+        
+        
 Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Text Processing :: Linguistic
