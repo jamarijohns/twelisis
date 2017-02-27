@@ -14,8 +14,8 @@ setup(name='twelisis',
       author='Ashik Poovanna',
       author_email='ashobot@gmail.com',
       packages=['twelisis'],
-	  install_requires=['tweepy','pandas','vaderSentiment'],
+	  install_requires=['tweepy','pandas','vaderSentiment','twython'],
       test_suite='nose.collector',
       tests_require=['nose'],
 	  include_package_data=True, 
-	  zip_safe=False)
+	  )
