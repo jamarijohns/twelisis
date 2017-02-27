@@ -1,11 +1,12 @@
 Metadata-Version: 1.1
 Name: twelisis
-Version: 0.1.2
+Version: 0.1.3
 Summary: Extracting Tweets from twitter and analysing them
 Home-page: https://github.com/yagamiash/twelisis.git
 Author: Ashik Poovanna
 Author-email: ashobot@gmail.com
 License: UNKNOWN
+Download-URL: https://github.com/yagamiash/twelisis/blob/master/dist/twelisis-0.1.tar.gz
 Description: twelisis
         --------
         
