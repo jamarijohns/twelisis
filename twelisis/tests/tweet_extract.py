@@ -6,7 +6,6 @@ from tweepy import Stream
 
 
 # writing tweets and related data into file
-
 class StdOutListener(StreamListener):
 	global fn
 	fn=open("raw_tweets_data.txt","a")
@@ -38,28 +37,8 @@ class tweepy_app:
 
 
 '''
-#reading JSON(format of raw tweets)
-twi_data_path="twi_2.txt"
-tweets_data=[]
-file=open(twi_data_path,"r")
-for i in file:
-	try:
-		tweet=json.loads(i)
-		tweets_data.append(tweet)
-	except:
-		continue
-
-# creating a pandas dataframe for better structuring 
-tweets=pd.DataFrame()
-tweets['text'] = [tweet.get('text','') for tweet in tweets_data]
-# Similarly give all the fields you reqire into the dataframe
 
 
-#Sentiment analysis using vader package from nltk
-analyser=SentimentIntensityAnalyzer()
-tweets["neg"]=[(analyser.polarity_scores(i)['neg']) for i in tweets['text']]
-tweets["new"]=[(analyser.polarity_scores(i)['neu']) for i in tweets['text']]
-tweets["pos"]=[(analyser.polarity_scores(i)['pos']) for i in tweets['text']]
-tweets["compound"]=[(analyser.polarity_scores(i)['compound']) for i in tweets['text']]
+
 '''
 

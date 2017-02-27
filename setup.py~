@@ -15,6 +15,5 @@ setup(name='twelisis',
       packages=['twelisis'],
 	  install_requires=['tweepy','pandas','vaderSentiment'],
       test_suite='nose.collector',
-      tests_require=['nose'],
-	  include_package_data=True, 
+      tests_require=['nose'], 
 	  zip_safe=False)
